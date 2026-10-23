@@ -1,0 +1,64 @@
+body {
+    
+
+    background-color: rgb(227, 195, 221);
+    background-image: url("imgs/höst.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    
+    
+8
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+nav {
+    border-bottom: 1px solid rgb(90, 15, 54);
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    display:flex;
+    gap: 10px;
+    flex-wrap: wrap;
+} 
+
+nav a:hover {
+    box-shadow: 0 3px 5px black;
+}
+
+nav a:active {
+    box-shadow: 0 1px 3px b;
+}
+
+.glass {
+    /* background-color: rgba(240, 248, 255, 0.465); */
+    
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+
+main {
+    width: 60dvw;
+    
+    
+}
+
+.cozyStockholm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cozyStockholm p{
+    width: 60%;
+}
